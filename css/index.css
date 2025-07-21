@@ -188,6 +188,72 @@ img {
         border-radius: 0;
         outline: none;
     }
+
+    .map-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    }
+    
+    .map-image {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .icon {
+        position: absolute;
+        width: 100px;
+        cursor: pointer;
+    }
+    
+    .icon img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    /* アイコンの位置調整（地図に合わせて調整してください） */
+    .icon-iruka {
+        top: 33%;
+        left: 17%;
+    }
+    
+    .icon-nagoya {
+        top: 31%;
+        left: 25%;
+    }
+    
+    .icon-totoro {
+        position: absolute; /* 地図上で位置決め */
+        top: 30%;
+        left: 35%;
+        cursor: pointer;
+    }
+    
+    .icon-totoro img {
+        width: 100%;
+        height: auto;
+        display: block;
+        position: relative; /* 親内の相対位置基準 */
+    }
+    
+    /* トトロの著作権表示 */
+    .totoro-copyright {
+        position: absolute;
+        bottom: 5px; /* トトロ画像の下辺あたり */
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 10pt;
+        color: white;
+        background-color: rgba(0,0,0,0.6);
+        padding: 2px 0;
+        border-radius: 3px;
+        pointer-events: none; /* クリック透過 */
+    }
+
 }
 
 .footer {
