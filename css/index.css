@@ -19,9 +19,9 @@ a {
 
 body {
     font-family: sans-serif;
-    font-size: 16pt;
+    font-size: 16px;
     color: #000000;
-    line-height: 1;
+    line-height: 1.5;
     background-color: #ffffff;
 }
 
@@ -39,10 +39,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.toggle-menu-button {
-    display: none;
 }
 
 .header-logo {
@@ -80,7 +76,8 @@ img {
 
 .icon {
     position: absolute;
-    width: 100px;
+    width: 12vw;
+    max-width: 100px;
     cursor: pointer;
 }
 
@@ -174,21 +171,7 @@ img {
     .copyright {
         margin-top: 50px;
     }
-
-    .toggle-menu-button {
-        display: block;
-        width: 44px;
-        height: 34px;
-        background-image: url(../images/common/icon-menu.png);
-        background-size: 50%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-color: transparent;
-        border: none;
-        border-radius: 0;
-        outline: none;
-    }
-
+    
     .map-wrapper {
     position: relative;
     width: 100%;
@@ -204,7 +187,8 @@ img {
     
     .icon {
         position: absolute;
-        width: 100px;
+        width: 12vw;
+        max-width: 80px;
         cursor: pointer;
     }
     
