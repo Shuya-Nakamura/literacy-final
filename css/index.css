@@ -37,8 +37,9 @@ img {
     padding-left: 40px;
     padding-right: 40px;
     display: flex;  
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    gap: 20px;
 }
 
 .header-logo {
