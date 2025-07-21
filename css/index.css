@@ -273,6 +273,7 @@ img {
     left: 0;
     padding: 10px;
     z-index: 10;
+    text-align: left;
 }
 
 .first-view-text h1{
