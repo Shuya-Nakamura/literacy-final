@@ -65,7 +65,6 @@ img {
 .site-menu ul li a {
     font-family: 'Cherry Bomb One', cursive;
     text-decoration: none;
-    color: #000;
     font-size: 1.1rem;
 }
 
@@ -293,6 +292,10 @@ img {
 .first-view-text p{
     font-size: 1.25rem;
     color: #555;
+}
+
+.header .site-menu ul li a {
+    color: #000000;
 }
 
 .footer .site-menu ul li a {
