@@ -262,7 +262,19 @@ img {
     margin-top: 90px;
 }
 
+.first-view{
+    position: relative;
+    height: 150px;
+}
+
 .first-view-text{
-    top: 0px;
-    left: 0px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+.first-view-text h1{
+    font-size: 3rem;
+    mergin: 0;
 }
