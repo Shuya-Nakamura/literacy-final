@@ -301,3 +301,8 @@ img {
 .footer .site-menu ul li a {
     color: #ffffff;
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
