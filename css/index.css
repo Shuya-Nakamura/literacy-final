@@ -41,18 +41,24 @@ img {
     padding: 20px 40px;
     display: flex;  
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
-.site-menu{
+.site-logo h1{
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.site-menu .header-menu{
     order: 2;
 }
 
-.site-menu ul {
+.site-menu .header-menu ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
     margin: 0;
     padding: 0;
 }
@@ -68,10 +74,6 @@ img {
     font-size: 1.1rem;
     color: #ffffff;
     display: block;
-}
-
-.header-inner > :not(.site-menu) {
-  order: 1;
 }
 
 .main{
@@ -162,6 +164,81 @@ img {
 
 /* --- ここまで地図とアイコン重ね用 --- */
 
+.footer {
+    color: #ffffff;
+    background-color: #b94047;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.site-menu.footer-menu {
+    order: 1;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.site-menu.footer-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.site-menu.footer-menu ul li a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 14pt;
+    font-weight: bold;
+    margin-top: 90px;
+}
+
+.footer .copyright {
+    order: 2;
+    margin: 0;
+}
+
+.first-view{
+    position: relative;
+    height: 150px;
+}
+
+.first-view-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    text-align: left;
+}
+
+.first-view-text h1{
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.first-view-text p{
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+
+.footer .site-menu ul li a {
+    color: #ffffff;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
 @media (max-width: 800px) {
     .site-menu ul {
         display: block;
@@ -173,24 +250,20 @@ img {
     }
 
     .header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        background-color: #ffffff;
-        height: 50px;
-        z-index: 10;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        padding: 10px 20px;
     }
 
     .header-inner {
-        padding-left: 20px;
-        padding-right: 20px;
-        height: 100%;
+       flex-wrap: wrap;
+       padding: 0;
     }
 
     .main {
-        padding-top: 50px;
+        padding-top: 70px;
+    }
+
+    .site-menu.header-menu {
+        display: none;
     }
 
     .copyright {
@@ -263,53 +336,9 @@ img {
         pointer-events: none; /* クリック透過 */
     }
 
-}
+    .site-menu.footer-menu ul {
+        gap: 12px;
+        font-size: 0.9rem;
+    }
 
-.footer {
-    color: #ffffff;
-    background-color: #b94047;
-    padding-top: 30px;
-    padding-bottom: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.copyright {
-    font-size: 14pt;
-    font-weight: bold;
-    margin-top: 90px;
-}
-
-.first-view{
-    position: relative;
-    height: 150px;
-}
-
-.first-view-text{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    text-align: left;
-}
-
-.first-view-text h1{
-    font-size: 3rem;
-    color: #ffffff;
-    margin-bottom: 8px;
-}
-
-.first-view-text p{
-    font-size: 1.25rem;
-    color: #ffffff;
-}
-
-.footer .site-menu ul li a {
-    color: #ffffff;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
 }
