@@ -70,6 +70,10 @@ img {
     display: block;
 }
 
+.header-inner > :not(.site-menu) {
+  order: 1;
+}
+
 .main{
     position: relative;
 }
