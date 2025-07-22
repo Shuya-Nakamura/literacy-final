@@ -68,19 +68,6 @@ img {
     color: #ffffff;
 }
 
-.site-menu .header-menu{
-    order: 2;
-}
-
-.site-menu .header-menu ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin: 0;
-    padding: 0;
-}
-
 .site-menu ul li {
     margin-left: 20px;
     margin-right: 20px;
@@ -108,7 +95,6 @@ img {
     border: none;
     font-weight: bold ;
     font-size: 1.2rem ;
-    color: #d33　;  /* 目立つ赤系 */
     user-select: none; /* テキスト選択防止（任意） */
 }
 
