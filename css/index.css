@@ -44,10 +44,28 @@ img {
     align-items: flex-start;
 }
 
-.site-logo h1{
-    margin: 0;
-    font-size: 1.8rem;
-    font-weight: bold;
+.first-view{
+    position: relative;
+    height: 150px;
+}
+
+.first-view-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    text-align: left;
+}
+
+.first-view-text h1{
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.first-view-text p{
+    font-size: 1.25rem;
+    color: #ffffff;
 }
 
 .site-menu .header-menu{
@@ -203,30 +221,6 @@ img {
 .footer .copyright {
     order: 2;
     margin: 0;
-}
-
-.first-view{
-    position: relative;
-    height: 150px;
-}
-
-.first-view-text{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    text-align: left;
-}
-
-.first-view-text h1{
-    font-size: 3rem;
-    color: #ffffff;
-    margin-bottom: 8px;
-}
-
-.first-view-text p{
-    font-size: 1.25rem;
-    color: #ffffff;
 }
 
 .footer .site-menu ul li a {
