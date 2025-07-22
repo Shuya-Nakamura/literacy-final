@@ -283,12 +283,13 @@ img {
 
 .first-view-text h1{
     font-size: 3rem;
+    color: #ffffff;
     margin-bottom: 8px;
 }
 
 .first-view-text p{
     font-size: 1.25rem;
-    color: #555;
+    color: #ffffff;
 }
 
 .header .site-menu ul li a {
