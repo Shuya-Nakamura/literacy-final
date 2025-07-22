@@ -328,17 +328,7 @@ html, body {
     
     /* トトロの著作権表示 */
     .totoro-copyright {
-        position: absolute;
-        bottom: 5px; /* トトロ画像の下辺あたり */
-        left: 0;
-        width: 50%;
-        text-align: center;
-        font-size: 6pt;
-        color: white;
-        background-color: rgba(0,0,0,0.6);
-        padding: 2px 0;
-        border-radius: 3px;
-        pointer-events: none; /* クリック透過 */
+       display: none;
     }
 
     .site-menu.footer-menu ul {
