@@ -70,6 +70,22 @@ img {
     margin: 0 auto;
 }
 
+.map-message {
+    position: absolute;
+    top: 10px; /* 画像の上から10px下に配置 */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.85); /* 白背景＋少し透過 */
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #d33; /* 目立つ赤系 */
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    z-index: 10;
+    user-select: none; /* テキスト選択防止（任意） */
+}
+
 .map-image {
     width: 100%;
     height: auto;
